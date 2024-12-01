@@ -1,0 +1,26 @@
+DTC depth:  2
+Test Score: 0.021111111111111112
+
+DTC depth:  4
+Test Score: 0.048128654970760236
+
+DTC depth:  8
+Test Score: 0.13257309941520468
+
+DTC depth:  13
+Test Score: 0.19289473684210526
+
+DTC depth:  14
+Test Score: 0.19573099415204678
+
+DTC depth:  15
+Test Score: 0.19429824561403508
+
+DTC depth:  16
+Test Score: 0.19090643274853802
+
+DTC depth:  32
+Test Score: 0.16736842105263158
+
+DTC depth:  41
+Test Score: 0.16660818713450293

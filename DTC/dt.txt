@@ -1,0 +1,127 @@
+DTC depth:  14
+Test Score: 0.19573099415204678
+                   precision    recall  f1-score   support
+
+         acoustic       0.14      0.10      0.12       311
+         afrobeat       0.16      0.09      0.12       297
+         alt-rock       0.02      0.01      0.01       313
+      alternative       0.06      0.03      0.04       293
+          ambient       0.25      0.31      0.28       275
+            anime       0.08      0.09      0.09       277
+      black-metal       0.41      0.38      0.39       319
+        bluegrass       0.17      0.26      0.20       301
+            blues       0.10      0.07      0.08       322
+           brazil       0.08      0.08      0.08       292
+        breakbeat       0.16      0.19      0.17       285
+          british       0.06      0.02      0.03       317
+         cantopop       0.16      0.15      0.15       301
+    chicago-house       0.32      0.31      0.31       294
+         children       0.35      0.25      0.29       303
+            chill       0.12      0.12      0.12       287
+        classical       0.43      0.40      0.42       302
+             club       0.14      0.10      0.11       296
+           comedy       0.84      0.79      0.81       291
+          country       0.13      0.38      0.19       310
+            dance       0.11      0.17      0.13       296
+        dancehall       0.15      0.20      0.17       312
+      death-metal       0.18      0.11      0.14       291
+       deep-house       0.12      0.28      0.17       286
+   detroit-techno       0.37      0.33      0.35       298
+            disco       0.10      0.04      0.05       290
+           disney       0.29      0.20      0.23       300
+    drum-and-bass       0.12      0.22      0.15       302
+              dub       0.06      0.04      0.05       302
+          dubstep       0.14      0.25      0.18       315
+              edm       0.13      0.28      0.17       301
+          electro       0.09      0.06      0.08       308
+       electronic       0.04      0.01      0.01       313
+              emo       0.09      0.02      0.03       308
+             folk       0.19      0.07      0.10       308
+            forro       0.15      0.47      0.22       303
+           french       0.11      0.08      0.09       305
+             funk       0.25      0.14      0.18       316
+           garage       0.11      0.05      0.06       306
+           german       0.16      0.06      0.09       308
+           gospel       0.13      0.35      0.19       292
+             goth       0.08      0.02      0.03       328
+        grindcore       0.70      0.60      0.65       334
+           groove       0.10      0.02      0.03       314
+           grunge       0.10      0.05      0.07       311
+           guitar       0.19      0.20      0.19       288
+            happy       0.13      0.14      0.13       296
+        hard-rock       0.06      0.04      0.05       293
+         hardcore       0.15      0.19      0.17       300
+        hardstyle       0.18      0.21      0.19       301
+      heavy-metal       0.13      0.37      0.20       287
+          hip-hop       0.14      0.12      0.13       296
+       honky-tonk       0.54      0.55      0.55       303
+            house       0.17      0.08      0.11       331
+              idm       0.31      0.19      0.23       342
+           indian       0.05      0.05      0.05       294
+            indie       0.11      0.01      0.02       319
+        indie-pop       0.10      0.02      0.04       294
+       industrial       0.05      0.00      0.01       310
+          iranian       0.35      0.43      0.39       283
+          j-dance       0.32      0.27      0.29       314
+           j-idol       0.31      0.31      0.31       300
+            j-pop       0.10      0.02      0.04       321
+           j-rock       0.07      0.04      0.05       300
+             jazz       0.50      0.42      0.46       325
+            k-pop       0.08      0.10      0.09       306
+             kids       0.38      0.44      0.41       290
+            latin       0.15      0.38      0.22       303
+           latino       0.05      0.09      0.07       312
+            malay       0.10      0.06      0.08       316
+         mandopop       0.14      0.25      0.18       302
+            metal       0.11      0.24      0.15       283
+        metalcore       0.16      0.28      0.20       284
+   minimal-techno       0.28      0.28      0.28       300
+              mpb       0.09      0.12      0.10       280
+          new-age       0.42      0.41      0.41       298
+            opera       0.32      0.32      0.32       290
+           pagode       0.22      0.33      0.26       297
+            party       0.20      0.28      0.24       327
+            piano       0.35      0.28      0.31       292
+              pop       0.13      0.15      0.14       297
+         pop-film       0.25      0.44      0.32       317
+        power-pop       0.39      0.19      0.26       318
+progressive-house       0.11      0.16      0.13       262
+       psych-rock       0.12      0.11      0.12       288
+             punk       0.08      0.10      0.09       301
+        punk-rock       0.13      0.13      0.13       298
+            r-n-b       0.12      0.06      0.08       287
+           reggae       0.00      0.00      0.00       295
+        reggaeton       0.08      0.05      0.06       293
+             rock       0.12      0.13      0.13       308
+      rock-n-roll       0.23      0.16      0.19       312
+       rockabilly       0.19      0.17      0.18       311
+          romance       0.44      0.46      0.45       282
+              sad       0.12      0.35      0.18       263
+            salsa       0.40      0.50      0.44       279
+            samba       0.29      0.15      0.20       292
+        sertanejo       0.26      0.28      0.27       315
+       show-tunes       0.21      0.14      0.17       318
+singer-songwriter       0.10      0.09      0.10       273
+              ska       0.11      0.16      0.13       300
+            sleep       0.72      0.63      0.67       312
+       songwriter       0.14      0.02      0.03       295
+             soul       0.18      0.23      0.21       278
+          spanish       0.03      0.01      0.01       312
+            study       0.47      0.58      0.52       282
+          swedish       0.09      0.02      0.03       274
+        synth-pop       0.31      0.01      0.03       291
+            tango       0.34      0.45      0.39       306
+           techno       0.17      0.08      0.11       302
+           trance       0.18      0.19      0.18       279
+         trip-hop       0.07      0.04      0.05       288
+          turkish       0.10      0.16      0.12       291
+      world-music       0.18      0.20      0.19       271
+
+         accuracy                           0.20     34200
+        macro avg       0.19      0.20      0.18     34200
+     weighted avg       0.19      0.20      0.18     34200
+
+Top 3 highest values in the confusion matrix:
+True Genre: comedy, Predicted Genre: comedy, Value: 230
+True Genre: grindcore, Predicted Genre: grindcore, Value: 201
+True Genre: sleep, Predicted Genre: sleep, Value: 196
