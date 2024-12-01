@@ -16,7 +16,15 @@ relevant_features = ['danceability', 'energy', 'speechiness', 'acousticness', 'i
 
 df[relevant_features] = scaler.fit_transform(df[relevant_features].fillna(0))
 
-df['liked'] = (df[relevant_features].sum(axis=1) > 2).astype(int)
+
+np.random.seed(42) 
+unique_genres = df['track_genre'].unique()
+genre_random_values = {genre: np.random.rand() for genre in unique_genres}
+
+df['genre_random'] = df['track_genre'].map(genre_random_values)
+
+df['liked'] = ((df[relevant_features].sum(axis=1) + df['genre_random']) > 2).astype(int)
+df['liked_values'] = ((df[relevant_features].sum(axis=1) + df['genre_random']))
 
 X = df[numerical_features].values
 y = df['liked'].values
@@ -38,7 +46,7 @@ model = keras.Sequential([
 
 model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 
-model.fit(X_train, y_train, epochs=20, batch_size=32, validation_data=(X_val, y_val))
+model.fit(X_train, y_train, epochs=5, batch_size=32, validation_data=(X_val, y_val))
 
 evaluation = model.evaluate(X_val, y_val)
 print(f"Validation Loss: {evaluation[0]}")
@@ -50,5 +58,9 @@ recommendations = df.sort_values(by='predicted_like', ascending=False).head(10)
 
 print("\nRecommended songs based on your preferences:")
 for _, row in recommendations.iterrows():
-    print(f"Track: {row['track_name']} by {row['artists']}")
-
+    print(
+        f"Track: {row['track_name']} by {row['artists']} | "
+        f"Liked Value: {row['liked_values']} | "
+        f"Sum of Relevant Features: {row[relevant_features].sum():.2f} | "
+        f"Random Genre Value: {row['genre_random']:.2f}"
+    )
